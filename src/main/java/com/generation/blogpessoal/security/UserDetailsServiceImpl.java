@@ -16,6 +16,11 @@ import com.generation.blogpessoal.repository.UsuarioRepository;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 	
+	/*
+	 *objetivo da classe
+	 *verificar se o usuário existe no banco de dados
+	 */
+	
 	@Autowired
 	private UsuarioRepository usuarioRepository;
 
